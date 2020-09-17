@@ -1,0 +1,170 @@
+/* GENERAL */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: lightgray;
+}
+
+
+/* UTILITIES */
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.col3 {
+  float: left;
+  width: calc(100% / 3);
+  padding: 0px 20px;
+}
+
+
+/* typography */
+h1,
+h2,
+h3 {
+  font-weight: 500;
+}
+
+/* bottoni */
+.btn {
+  color: white;
+  border-radius: 3px;
+  min-width: 100px;
+  border: 1px solid;
+  line-height: 35px;
+  text-decoration: none;
+}
+
+.btn-trasp {
+  background-color: transparent;
+}
+
+.btn-green {
+  background-color: #73cd93;
+  border-color: #73cd93;
+  min-width: 150px;
+}
+
+.large {
+  padding: 20px 20px;
+  text-transform: uppercase;
+}
+
+
+/* HEADER */
+header {
+  background-color: #0c325a;
+  background-image: url(../img/background-header.png);
+  background-repeat: no-repeat;
+  background-size: 700px;
+}
+
+.header-nav {
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 80px;
+}
+
+.float-left {
+  float: left;
+}
+
+.header-nav .header-nav-sx {
+  width: 15%;
+}
+
+.header-nav .header-nav-center {
+  width: 45%;
+}
+
+.header-nav .header-nav-dx {
+  width: 40%;
+}
+
+
+/* colonna sinistra */
+
+
+/* colonna centrale */
+.list-header-nav-center li {
+  display: inline;
+  padding: 0px 15px;
+}
+
+.list-header-nav-center li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* colonna destra */
+.header-nav-dx {
+  text-align: right;
+}
+
+.list-header-nav-dx li {
+  display: inline;
+  padding: 0px 15px;
+}
+
+.list-header-nav-dx li a {
+  text-decoration: none;
+  color: white;
+}
+
+
+/* jumbrotron */
+.jumbotron {
+  height: 480px;
+  position: relative;
+}
+
+.jumbotron-text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.jumbotron-text h1 {
+  font-size: 50px;
+  line-height: 65px;
+  padding-bottom: 30px;
+  color: white;
+}
+
+
+/* MAIN */
+
+/* striscia */
+.striscia {
+  text-align: center;
+  background-color: lightgray;
+}
+
+.striscia h2 {
+  color: black;
+  padding-top: 30px;
+}
+
+.striscia h3 {
+  color: gray;
+  padding: 10px 0px 30px 0px;
+}
+
+/* colonne main */
