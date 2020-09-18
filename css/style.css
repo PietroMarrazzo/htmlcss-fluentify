@@ -49,6 +49,12 @@ body {
     line-height: 200px;
 }
 
+.translate50y {
+  position: relative;
+  transform: translateY(50%);
+}
+
+
 /* typography */
 a {
   color: #5586bc;
@@ -304,9 +310,13 @@ header {
 }
 
 .bottom-dx .text {
-  padding: 0px 80px;
+  padding-right: 80px;
 }
 
-.bottom-dx i {
-  padding-right: 50px;
+.bottom-dx .bottom-dx-parag {
+  padding: 0px 30px;
+}
+
+.bottom-dx .button-footer {
+  padding-left: 50px;
 }
