@@ -37,6 +37,18 @@ body {
   margin-top: 40px;
 }
 
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.line-height50 {
+    line-height: 200px;
+}
+
 /* typography */
 a {
   color: #5586bc;
@@ -107,11 +119,13 @@ h2.big {
 /* bottone help */
 .help {
   position: fixed;
+  z-index: 1;
   bottom: 0;
   right 15%;
   background-color: #7cbb02;
   border-radius: 5px 5px 0px 0px;
   text-align: center;
+
 }
 
 /* HEADER */
@@ -127,10 +141,6 @@ header {
   text-transform: uppercase;
   font-size: 12px;
   line-height: 80px;
-}
-
-.float-left {
-  float: left;
 }
 
 .header-nav .header-nav-sx {
@@ -259,4 +269,44 @@ header {
 
 .text-entry p {
   padding-bottom: 20px;
+}
+
+/* FOOTER */
+.striscia-bottom {
+  background-color: lightgray;
+  position: relative;
+}
+
+.bottom-sx {
+  text-align: left;
+  width: 30%;
+}
+
+.bottom h2 {
+  color: black;
+  font-size: 30px;
+}
+
+.bottom-dx {
+  width: 70%;
+  text-align: right;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.bottom-dx a {
+}
+
+.bottom-dx .selection {
+  border-bottom: 1px solid black;
+}
+
+.bottom-dx .text {
+  padding: 0px 80px;
+}
+
+.bottom-dx i {
+  padding-right: 50px;
 }
